@@ -38,9 +38,8 @@ jobs:
 
       - name: Install R packages
         run: |
-          install.packages("remotes")
-          remotes::install_github('ocean-tracking-network/glatos', build_vignettes = FALSE)
-          install.packages("rsconnect")
+          install.packages("renv")
+          renv::restore()
         shell: Rscript {0}
 
       - name: Authorize and deploy app
