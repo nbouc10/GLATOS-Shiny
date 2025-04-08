@@ -1,0 +1,12 @@
+name: FalseDetFilter
+title: FalseDetFilter
+username: nbouc10
+account: nbouc10
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13915494
+bundleId: 9754576
+url: https://nbouc10.shinyapps.io/FalseDetFilter/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
