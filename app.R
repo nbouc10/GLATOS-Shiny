@@ -7,7 +7,7 @@ options(shiny.maxRequestSize = 300*1024^2)
 #UI
 ui <- fluidPage(
   #Set title
-  titlePanel("Run GLATOS False Detections Filter VERSION 2"),
+  titlePanel("Run GLATOS False Detections Filter"),
   #use fluidrow to align elements
   fluidRow(
     column(4,
