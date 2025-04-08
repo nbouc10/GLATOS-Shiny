@@ -36,8 +36,11 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v2
 
-      - name: Install rsconnect
-        run: install.packages("rsconnect")
+      - name: Install R packages
+        run: |
+        install.packages("remotes")
+        remotes::install_github('ocean-tracking-network/glatos', build_vignettes = FALSE)
+        install.packages("rsconnect")
         shell: Rscript {0}
 
       - name: Authorize and deploy app
