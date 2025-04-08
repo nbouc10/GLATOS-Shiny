@@ -22,6 +22,17 @@ jobs:
         with:
           use-public-rspm: true
           r-version: renv
+      
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            gdal-bin \
+            libavfilter-dev \
+            libcurl4-openssl-dev \
+            libgdal-dev \
+            libglpk-dev \
+            libudunits2-dev
 
       - uses: r-lib/actions/setup-renv@v2
 
