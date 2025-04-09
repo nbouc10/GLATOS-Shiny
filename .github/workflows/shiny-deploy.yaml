@@ -32,7 +32,8 @@ jobs:
             libavcodec-dev \
             libavutil-dev \
             libswscale-dev \
-            libavdevice-dev
+            libavdevice-dev \
+            libproj-dev
             
       - uses: r-lib/actions/setup-renv@v2
 
