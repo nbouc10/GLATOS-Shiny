@@ -33,7 +33,8 @@ jobs:
             libavutil-dev \
             libswscale-dev \
             libavdevice-dev \
-            libproj-dev
+            libproj-dev \
+            libgdal-dev
             
       - uses: r-lib/actions/setup-renv@v2
 
