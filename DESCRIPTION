@@ -1,0 +1,16 @@
+Package: GLATOS-Shiny
+Title: {{ Title }}
+Version: 1.0.0
+Authors@R: 
+    person("Jo", "Doe", , "jodoe@dom.ain", role = c("aut", "cre"))
+Maintainer: {{ Maintainer }}
+Description: {{ Description }}
+License: {{ License }}
+URL: {{ URL }}
+BugReports: {{ BugReports }}
+Imports: 
+    glatos,
+    shiny,
+    tools
+Encoding: UTF-8
+RoxygenNote: 7.3.2
