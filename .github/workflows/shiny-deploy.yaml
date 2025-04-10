@@ -36,7 +36,7 @@ jobs:
             libproj-dev \
             libgdal-dev \
             libglpk-dev \
-            libudunits-dev
+            libudunits2-dev
             
       - uses: r-lib/actions/setup-renv@v2
 
