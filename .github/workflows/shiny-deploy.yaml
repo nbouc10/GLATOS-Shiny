@@ -39,7 +39,12 @@ jobs:
             libudunits2-dev
             
       - uses: r-lib/actions/setup-renv@v2
-
+      - name: Install glatos manually
+        run: |
+            install.packages("remotes")
+            remotes::install_github("ocean-tracking-network/glatos", build_vignettes = FALSE)
+        shell: Rscript {0}
+        
       - name: Install rsconnect
         run: install.packages("rsconnect")
         shell: Rscript {0}
