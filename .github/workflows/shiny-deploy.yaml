@@ -34,8 +34,9 @@ jobs:
             libswscale-dev \
             libavdevice-dev \
             libproj-dev \
-            libgdal-dev \ 
+            libgdal-dev \
             libglpk-dev
+            
       - uses: r-lib/actions/setup-renv@v2
 
       - name: Install rsconnect
