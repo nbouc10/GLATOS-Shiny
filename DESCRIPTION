@@ -9,8 +9,9 @@ License: {{ License }}
 URL: {{ URL }}
 BugReports: {{ BugReports }}
 Imports: 
-    glatos,
     shiny,
     tools
+Remotes:
+    ocean-tracking-network/glatos
 Encoding: UTF-8
 RoxygenNote: 7.3.2
