@@ -3,7 +3,8 @@
 on:
   push:
     branches: [main, master]
-
+  workflow_dispatch:
+  
 name: shiny-deploy
 
 permissions: read-all
