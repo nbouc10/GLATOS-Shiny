@@ -1,7 +1,7 @@
 library(shiny)
 library(glatos)
 
-falsedetfilter <- function(...){
+#falsedetfilter <- function(...){
 #Set max file size
 options(shiny.maxRequestSize = 300*1024^2)
 
@@ -98,4 +98,4 @@ server <- function(input, output, session) {
 
 # Run the application 
 shinyApp(ui = ui, server = server)
-}
+#}
