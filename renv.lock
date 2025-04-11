@@ -1116,13 +1116,10 @@
       "Config/testthat/edition": "3",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "glatos",
       "RemoteUsername": "ocean-tracking-network",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "aa0d75ed063d114a11e6763f2ab4b4bd5ee189fd",
-      "NeedsCompilation": "no",
-      "Author": "Christopher Holbrook [cre, aut], Todd Hayden [aut], Thomas Binder [aut], Jon Pye [aut], Mike O'Brien [ctb], Alex Nunes [ctb], Benjamin Hlina [ctb], Angela Dini [ctb], Ryan Gosse [ctb]",
-      "Maintainer": "Christopher Holbrook <cholbrook@usgs.gov>"
+      "RemoteRepo": "glatos",
+      "RemoteRef": "main",
+      "RemoteSha": "aa0d75ed063d114a11e6763f2ab4b4bd5ee189fd"
     },
     "glue": {
       "Package": "glue",
