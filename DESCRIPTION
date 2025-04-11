@@ -10,7 +10,8 @@ URL: {{ URL }}
 BugReports: {{ BugReports }}
 Imports: 
     shiny,
-    tools
+    tools,
+    glatos
 Remotes:
     ocean-tracking-network/glatos
 Encoding: UTF-8
