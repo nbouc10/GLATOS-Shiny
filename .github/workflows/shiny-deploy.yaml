@@ -27,7 +27,7 @@ jobs:
         with:
           packages:
             any::rsconnect
-
+          cache-version: 2
       - name: Authorize and deploy app
         env:
           # Provide your app name, account name, and server to be deployed below
